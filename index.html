@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>telc Deutsch A2 Zertifikat</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="pdf-data.js"></script>
+  <script src="lib/pdf.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Top Utility Navigation -->
+  <nav class="utility-nav">
+    <div class="container">
+      <div class="utility-left">
+        <a href="#" class="profile-icon" aria-label="Profil">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="8" r="4"/>
+            <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+          </svg>
+        </a>
+      </div>
+      <div class="utility-right">
+        <a href="#">telc.net</a>
+        <a href="#">Campus</a>
+        <a href="#">Training</a>
+        <a href="#" class="active-community">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+          </svg>
+          Community
+        </a>
+        <a href="#">Shop</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Header -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo-section">
+        <div class="logo">
+          <span class="logo-text">telc</span>
+        </div>
+        <span class="logo-subtitle">LANGUAGE TESTS</span>
+      </div>
+      <div class="lang-switcher">
+        <a href="#" class="lang-active">DE</a>
+        <a href="#" class="lang-inactive">EN</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Title Bar -->
+  <div class="title-bar">
+    <div class="container">
+      <h1>telc Deutsch A2 Zertifikat</h1>
+      <div class="title-right">
+        <span>Laden Sie die PDF-Datei zur Validierung dieses Zertifikats hoch</span>
+        <span class="info-icon" title="Information">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="10" stroke="#999" stroke-width="1.5"/>
+            <path d="M12 8v4M12 16h.01" stroke="#999" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <div class="content-grid">
+
+        <!-- Left: Certificate Carousel -->
+        <div class="carousel-section">
+          <div class="carousel-wrapper">
+            <button class="carousel-arrow carousel-prev" aria-label="Vorherige">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="15 18 9 12 15 6"/>
+              </svg>
+            </button>
+            <div class="certificate-preview">
+              <div class="pdf-carousel-viewport">
+                <div id="pdf-track" class="pdf-pages-track" data-active="1"></div>
+              </div>
+            </div>
+            <button class="carousel-arrow carousel-next" aria-label="Nächste">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+            </button>
+          </div>
+          <div class="carousel-controls">
+            <a href="#" class="external-link" aria-label="In neuem Tab öffnen" tabindex="-1">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15 3 21 3 21 9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+            </a>
+            <div class="carousel-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Certificate Details -->
+        <div class="details-section">
+          <div class="detail-row">
+            <span class="detail-label">Ausgestellt für:</span>
+            <span class="detail-value">MUHAMMED ASLAN</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Ausgestellt am:</span>
+            <span class="detail-value">4. März 2026</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Ausgestellt von:</span>
+            <span class="detail-value">telc gGmbH</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Link zur Webseite:</span>
+            <a href="https://www.telc.net/" class="detail-link" target="_blank">https://www.telc.net/</a>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Identifikationsnummer:</span>
+            <span class="detail-value">telc-WWE5SRj</span>
+          </div>
+
+          <!-- Verification Box (Drag & Drop) -->
+          <div id="verify-dropzone" class="verify-box">
+            <input type="file" id="pdf-input" accept="application/pdf,.pdf" hidden>
+            <h3>PDF-Zertifikat überprüfen</h3>
+            <p>Laden Sie die PDF-Version dieses Zertifikats hoch, um seine Echtheit zu überprüfen.</p>
+            <button type="button" id="upload-btn" class="upload-btn" aria-label="PDF hochladen">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="12" y1="18" x2="12" y2="12"/>
+                <polyline points="9 15 12 12 15 15"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Further Details Section -->
+  <section class="further-details">
+    <div class="container">
+      <h2>Weitere Details</h2>
+      <hr>
+      <p>Weitere Informationen zur Prüfung finden Sie auf der <em>telc Deutsch A2 Zertifikat</em> Seite.</p>
+      <p>For more information about the examination, please visit the <em>telc Deutsch A2</em> page.</p>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" aria-label="Nach oben scrollen" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+</body>
+</html>
